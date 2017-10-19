@@ -1,4 +1,4 @@
-#hyperledger-composer-box
+# hyperledger-composer-box
 A ready-to-go Vagrant Box (VM) for working with Hyperledger Fabric via Hyperledger Composer and Hyperledger Explorer. The setup mostly follows the guide at https://hyperledger.github.io/composer/installing/development-tools.html .
 
 Note: The installation process is a bit complicated at the moment and there is little to no error handling. However, 
@@ -6,10 +6,10 @@ in most cases the setup should cancel if an error occurs.Still, it is advised to
 Furthermore, you can't start more than one VM, because there will be conflicts with ip's and forwarded ports. You'd have to 
 edit the Vagrantfile to allow multiple VM's
 
-#Requirements
+## Requirements
 You need Vagrant to use the VM: https://www.vagrantup.com/
 
-#Installation
+## Installation
 First, initialise and connect to the Vagrant VM:
 ```
 vagrant up
@@ -31,7 +31,7 @@ After that, run the second setup:
 
 At last, you should check the output for errors.
 
-#Getting started
+## Getting started
 To start a preconfigured fabric chain, run the following commands:
 ```
 cd fabric-tools
@@ -51,18 +51,18 @@ cd fabric-tools
 Additional info can be found at https://hyperledger.github.io/composer/installing/development-tools.html .
 
 
-#Start the Hyperledger Playground
+## Start the Hyperledger Playground
 There are 2 ways to start the playground. You can either run `composer-playground` or do the following: 
 ```
 cd playground
 ./composer.sh
 ```
 
-#Use Hyperledger Explorer
+## Use Hyperledger Explorer
 To use Hyperledger Explorer, follow the instructions at https://github.com/hyperledger/blockchain-explorer .
 The MySQL Password is `root`.
 
-#Additional info
+## Additional info
 The Vagrant base box used is bento ubuntu: https://app.vagrantup.com/bento/boxes/ubuntu-16.04
 Hyperledger Composer: https://hyperledger.github.io/composer/
 Hyperledger Fabric: 
