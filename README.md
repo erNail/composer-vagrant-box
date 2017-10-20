@@ -2,9 +2,9 @@
 A ready-to-go Vagrant Box (VM) for working with Hyperledger Fabric via Hyperledger Composer and Hyperledger Explorer. The setup mostly follows the guide at https://hyperledger.github.io/composer/installing/development-tools.html .
 
 Note: The installation process is a bit complicated at the moment and there is little to no error handling. However, 
-in most cases the setup should cancel if an error occurs.Still, it is advised to check the console output for errors.
+in most cases the setup should cancel if an error occurs. Still, it is advised to check the console output for errors.
 Furthermore, you can't start more than one VM, because there will be conflicts with ip's and forwarded ports. You'd have to 
-edit the Vagrantfile to allow multiple VM's
+edit the Vagrantfile to allow multiple VM's.
 
 ## Requirements
 You need Vagrant to use the VM: https://www.vagrantup.com/
