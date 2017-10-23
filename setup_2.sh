@@ -64,21 +64,6 @@ echo 'Downloading Hyperledger Explorer'
 	cd ~/
 echo 'Done!'
 
-echo 'Installing playground...'
-	set +e
-	docker ps -aq | xargs docker rm -f
-	docker images -aq | xargs docker rmi -f
-	set -e	
-	mkdir ~/playground
-	cd ~/playground
-	curl -sSL https://hyperledger.github.io/composer/install-hlfv1.sh | bash	
-	set +e
-	docker ps -aq | xargs docker rm -f
-	docker images -aq | xargs docker rmi -f	
-	set -e
-echo 'Done!'
-set -e
-
 echo '----------------------------------------'
 echo '--- Hyperledger Fabric Box is ready! ---'
 echo '----------------------------------------'

@@ -52,11 +52,7 @@ Additional info can be found at https://hyperledger.github.io/composer/installin
 
 
 ## Start the Hyperledger Playground
-There are 2 ways to start the playground. You can either run `composer-playground` or do the following: 
-```
-cd playground
-./composer.sh
-```
+To start the playground, simply run `composer-playground`.
 
 ## Use Hyperledger Explorer
 To use Hyperledger Explorer, follow the instructions at https://github.com/hyperledger/blockchain-explorer .
@@ -65,5 +61,5 @@ The MySQL Password is `root`.
 ## Additional info
 The Vagrant base box used is bento ubuntu: https://app.vagrantup.com/bento/boxes/ubuntu-16.04
 Hyperledger Composer: https://hyperledger.github.io/composer/
-Hyperledger Fabric: 
+Hyperledger Fabric: https://www.hyperledger.org/projects/fabric
 

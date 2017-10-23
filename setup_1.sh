@@ -5,7 +5,7 @@ echo 'Performing apt-get-update...'
 echo 'Done!'
 echo '#'
 
-echo 'Installing unzip...'
+echo 'Installing unzip and zip...'
 	sudo apt-get install unzip zip
 echo 'Done!'
 echo '#'

@@ -9,7 +9,6 @@ Vagrant.configure("2") do |config|
   
   config.vm.synced_folder "shared/", "/home/vagrant/shared"
 
-  config.vm.network "forwarded_port", guest: 8080, host: 10000
   config.vm.network "forwarded_port", guest: 4200, host: 4200
   config.vm.network "forwarded_port", guest: 3000, host: 3000
    
@@ -17,4 +16,3 @@ Vagrant.configure("2") do |config|
 	v.memory = 4096
   end
 end
-
