@@ -1,3 +1,5 @@
+OUTDATED: Please refer to https://github.com/jt-nti/composer-devenv
+
 # hyperledger-composer-box
 A ready-to-go Vagrant Box (VM) for working with Hyperledger Fabric via Hyperledger Composer and Hyperledger Explorer. The setup mostly follows the guide at https://hyperledger.github.io/composer/installing/development-tools.html .
 
